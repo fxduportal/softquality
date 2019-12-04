@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.6" sequence="0" timestamp="1554890159000" analysisTimestamp="1554890169590" release="">
+  <Project>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/contract/Bucket.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/contract/Coin.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/contract/Inventory.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/contract/Item.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/contract/VendingMachine.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/exceptions/ItemNotSelectedException.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/exceptions/NotFullyPaidException.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/exceptions/NotSufficientChangeException.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/exceptions/SoldOutException.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/exceptions/TooMuchInsertedMoneyException.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/impl/BucketImpl.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/impl/CoinUtil.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/impl/InventoryImpl.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/impl/VendingMachineFactory.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/impl/VendingMachineImpl.class</Jar>
+    <Jar>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main/main/Main.class</Jar>
+    <AuxClasspathEntry>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext/jfxrt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/lom/Documents/Enseignement/P10/2017-2018/POA/Devoir1/vendingmachine/build/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>apply</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Wed, 10 Apr 2019 11:55:59 +0200" total_classes="16" referenced_classes="76" total_bugs="0" total_size="298" num_packages="4" java_version="1.8.0_202" vm_version="25.202-b08" cpu_seconds="8.57" clock_seconds="2.12" peak_mbytes="2343.49" alloc_mbytes="949.00" gc_seconds="0.04">
+    <FileStats path="contract/Bucket.java" bugCount="0" size="9"/>
+    <FileStats path="contract/Coin.java" bugCount="0" size="20"/>
+    <FileStats path="contract/Inventory.java" bugCount="0" size="7"/>
+    <FileStats path="contract/Item.java" bugCount="0" size="21"/>
+    <FileStats path="contract/VendingMachine.java" bugCount="0" size="10"/>
+    <FileStats path="exceptions/ItemNotSelectedException.java" bugCount="0" size="4"/>
+    <FileStats path="exceptions/NotFullyPaidException.java" bugCount="0" size="8"/>
+    <FileStats path="exceptions/NotSufficientChangeException.java" bugCount="0" size="4"/>
+    <FileStats path="exceptions/SoldOutException.java" bugCount="0" size="4"/>
+    <FileStats path="exceptions/TooMuchInsertedMoneyException.java" bugCount="0" size="4"/>
+    <FileStats path="impl/BucketImpl.java" bugCount="0" size="29"/>
+    <FileStats path="impl/CoinUtil.java" bugCount="0" size="6"/>
+    <FileStats path="impl/InventoryImpl.java" bugCount="0" size="30"/>
+    <FileStats path="impl/VendingMachineFactory.java" bugCount="0" size="10"/>
+    <FileStats path="impl/VendingMachineImpl.java" bugCount="0" size="119"/>
+    <FileStats path="main/Main.java" bugCount="0" size="13"/>
+    <PackageStats package="contract" total_bugs="0" total_types="5" total_size="67">
+      <ClassStats class="contract.Bucket" sourceFile="Bucket.java" interface="true" size="9" bugs="0"/>
+      <ClassStats class="contract.Coin" sourceFile="Coin.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="contract.Inventory" sourceFile="Inventory.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="contract.Item" sourceFile="Item.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="contract.VendingMachine" sourceFile="VendingMachine.java" interface="true" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="exceptions" total_bugs="0" total_types="5" total_size="24">
+      <ClassStats class="exceptions.ItemNotSelectedException" sourceFile="ItemNotSelectedException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="exceptions.NotFullyPaidException" sourceFile="NotFullyPaidException.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="exceptions.NotSufficientChangeException" sourceFile="NotSufficientChangeException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="exceptions.SoldOutException" sourceFile="SoldOutException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="exceptions.TooMuchInsertedMoneyException" sourceFile="TooMuchInsertedMoneyException.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="impl" total_bugs="0" total_types="5" total_size="194">
+      <ClassStats class="impl.BucketImpl" sourceFile="BucketImpl.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="impl.CoinUtil" sourceFile="CoinUtil.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="impl.InventoryImpl" sourceFile="InventoryImpl.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="impl.VendingMachineFactory" sourceFile="VendingMachineFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="impl.VendingMachineImpl" sourceFile="VendingMachineImpl.java" interface="false" size="119" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="main" total_bugs="0" total_types="1" total_size="13">
+      <ClassStats class="main.Main" sourceFile="Main.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="178" invocations="607" avgMicrosecondsPerInvocation="293" maxMicrosecondsPerInvocation="15255" standardDeviationMicrosecondsPerInvocation="816"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="121" invocations="610" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="569" standardDeviationMicrosecondsPerInvocation="98"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="100" invocations="76" avgMicrosecondsPerInvocation="1326" maxMicrosecondsPerInvocation="10617" standardDeviationMicrosecondsPerInvocation="2288"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="83" invocations="76" avgMicrosecondsPerInvocation="1098" maxMicrosecondsPerInvocation="12222" standardDeviationMicrosecondsPerInvocation="1970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="73" invocations="87" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="66129" standardDeviationMicrosecondsPerInvocation="7040"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="70" invocations="315" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="3786" standardDeviationMicrosecondsPerInvocation="416"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="52" invocations="64" avgMicrosecondsPerInvocation="816" maxMicrosecondsPerInvocation="13887" standardDeviationMicrosecondsPerInvocation="2128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="43" invocations="65" avgMicrosecondsPerInvocation="668" maxMicrosecondsPerInvocation="12290" standardDeviationMicrosecondsPerInvocation="1597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="41" invocations="76" avgMicrosecondsPerInvocation="546" maxMicrosecondsPerInvocation="8952" standardDeviationMicrosecondsPerInvocation="1251"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="40" invocations="135" avgMicrosecondsPerInvocation="298" maxMicrosecondsPerInvocation="17256" standardDeviationMicrosecondsPerInvocation="1520"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="39" invocations="64" avgMicrosecondsPerInvocation="615" maxMicrosecondsPerInvocation="8911" standardDeviationMicrosecondsPerInvocation="1244"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="36" invocations="64" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="9867" standardDeviationMicrosecondsPerInvocation="1290"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="34" invocations="87" avgMicrosecondsPerInvocation="396" maxMicrosecondsPerInvocation="13773" standardDeviationMicrosecondsPerInvocation="1472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="32" invocations="64" avgMicrosecondsPerInvocation="511" maxMicrosecondsPerInvocation="4563" standardDeviationMicrosecondsPerInvocation="815"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="32" invocations="64" avgMicrosecondsPerInvocation="502" maxMicrosecondsPerInvocation="3370" standardDeviationMicrosecondsPerInvocation="666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="28" invocations="76" avgMicrosecondsPerInvocation="380" maxMicrosecondsPerInvocation="4966" standardDeviationMicrosecondsPerInvocation="799"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="25" invocations="76" avgMicrosecondsPerInvocation="336" maxMicrosecondsPerInvocation="3288" standardDeviationMicrosecondsPerInvocation="524"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="25" invocations="76" avgMicrosecondsPerInvocation="333" maxMicrosecondsPerInvocation="9599" standardDeviationMicrosecondsPerInvocation="1123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="563" avgMicrosecondsPerInvocation="43" maxMicrosecondsPerInvocation="1052" standardDeviationMicrosecondsPerInvocation="82"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="19" invocations="76" avgMicrosecondsPerInvocation="254" maxMicrosecondsPerInvocation="2666" standardDeviationMicrosecondsPerInvocation="487"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="19" invocations="76" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="6375" standardDeviationMicrosecondsPerInvocation="999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="18" invocations="53" avgMicrosecondsPerInvocation="353" maxMicrosecondsPerInvocation="3521" standardDeviationMicrosecondsPerInvocation="531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="16" invocations="76" avgMicrosecondsPerInvocation="215" maxMicrosecondsPerInvocation="3173" standardDeviationMicrosecondsPerInvocation="438"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="13" invocations="76" avgMicrosecondsPerInvocation="176" maxMicrosecondsPerInvocation="1815" standardDeviationMicrosecondsPerInvocation="331"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

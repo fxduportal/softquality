@@ -1,0 +1,1 @@
+{"uuid":"7b79fcbe-ae79-4eb1-af32-71ac062a42ae","name":"vendingmachine.VendingMachineAbstractTest.afterEachTest","description":"","start":1554890161752,"stop":1554890161753,"children":["281ddf97-eaa4-42b1-a1a4-7122f05b2905"],"afters":[{"name":"afterEachTest","status":"passed","stage":"finished","description":"","start":1554890161752,"stop":1554890161753}]}

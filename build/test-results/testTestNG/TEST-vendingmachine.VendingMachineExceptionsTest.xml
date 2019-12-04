@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vendingmachine.VendingMachineExceptionsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-04-10T09:56:01" hostname="Vela.local" time="0.023">
+  <properties/>
+  <testcase name="testItemNotSelectedException" classname="vendingmachine.VendingMachineExceptionsTest" time="0.002"/>
+  <testcase name="testNotFullyPaidException" classname="vendingmachine.VendingMachineExceptionsTest" time="0.001"/>
+  <testcase name="testNotSufficientChangeException" classname="vendingmachine.VendingMachineExceptionsTest" time="0.002"/>
+  <testcase name="testReset" classname="vendingmachine.VendingMachineExceptionsTest" time="0.001"/>
+  <testcase name="testSoldOut" classname="vendingmachine.VendingMachineExceptionsTest" time="0.001"/>
+  <testcase name="testTooMuchInsertedMoneyException" classname="vendingmachine.VendingMachineExceptionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

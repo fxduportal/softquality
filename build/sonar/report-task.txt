@@ -1,0 +1,6 @@
+projectKey=upn.miage:cpo.vendingmachine
+serverUrl=http://127.0.0.1:8080
+serverVersion=7.0.0.36138
+dashboardUrl=http://127.0.0.1:8080/dashboard/index/upn.miage:cpo.vendingmachine
+ceTaskId=AWoGrSepJrLF35-kDxC6
+ceTaskUrl=http://127.0.0.1:8080/api/ce/task?id=AWoGrSepJrLF35-kDxC6
